@@ -1,0 +1,25 @@
+.title-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid green;
+    margin: 20px;
+}
+
+.post-title, .post-description, .comments-list, .add-comments {
+    border: 2px solid green;
+    /* max-width: 70%; */
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.comments-list {
+    list-style: none;
+}
+
+.add-comment-btn {
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+}
